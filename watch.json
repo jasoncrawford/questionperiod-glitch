@@ -7,13 +7,12 @@
   },
   "restart": {
     "exclude": [
-      "^public/",
-      "^dist/"
+      "^public/"
     ],
     "include": [
       "\\.js$",
-      "\\.coffee$",
-      "\\.json"
+      "\\.hbs$",
+      "\\.json$"
     ]
   },
   "throttle": 100

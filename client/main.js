@@ -2,6 +2,7 @@ require("babel-polyfill");
 window.$ = require('jquery');
 const Backbone = require('backbone');
 const Router = require('./router');
+require('bootstrap');
 
 window.db = require('./db');
 
